@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import { FleekSdk, ApplicationAccessTokenService } from '@fleekxyz/sdk';
 
 const applicationService = new ApplicationAccessTokenService({
-    clientId: 'client_zudVo_n-6ilfGbgwClmi',
+    clientId: 'client_NpNWG69fTjFoIIXj6mrm',
 })
 
 const fleekSdk = new FleekSdk({ accessTokenService: applicationService })
